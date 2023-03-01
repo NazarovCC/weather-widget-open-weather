@@ -3,11 +3,6 @@ export interface IApiClient {
 	post(endPoint: string, data?: any, signal?: AbortSignal): Promise<any>
 };
 
-export interface IParamsGeo {
-	q?: string;
-	limit?: number;
-}
-
 export interface IParamsWeather {
 	q?: string;
 	lat?: number;
